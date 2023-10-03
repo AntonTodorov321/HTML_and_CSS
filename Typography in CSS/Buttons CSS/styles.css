@@ -1,0 +1,39 @@
+button{
+    outline: none;
+    color: rgb(51, 51, 51);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 8.6em;
+    margin-left: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    margin-top: 4em;
+    margin-left: 1em;
+}
+
+.fill{
+    color: rgb(251, 251, 251);
+    background-color: rgb(51, 51, 51);
+}
+
+.hover:hover{
+    border-color:rgb(0, 102, 0) ;
+    color: rgb(0, 102, 0);
+}
+
+.hover.fill:hover{
+    background-color: rgb(0, 102, 0);
+    color:rgb(251, 251, 251) ;
+}
+
+
+/* o	green(rgb(0, 102, 0))
+o	white(rgb(251, 251, 251))
+o	gray(rgb(51, 51, 51)) */
