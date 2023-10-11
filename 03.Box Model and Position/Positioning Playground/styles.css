@@ -1,0 +1,51 @@
+.container{
+    height: 100vh;  
+    position: relative;  
+}
+
+.container:nth-child(1){
+    background-color: #042d34;
+}
+
+.container:nth-child(2){
+    background-color: #a86932;
+}
+
+.card{
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 0.7em;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .inner-shadow{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5) inset;
+    opacity: 0.1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover .inner-shadow{
+    opacity: 1;
+} 
+
+i{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    right: 5px;
+} 
