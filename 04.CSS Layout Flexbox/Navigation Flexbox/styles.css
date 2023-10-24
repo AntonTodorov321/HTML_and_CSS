@@ -1,0 +1,33 @@
+html{
+    padding: 2em;
+}
+
+header{
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+main h2{
+    text-transform: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+header nav{
+    display: flex;
+    margin-left: auto;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
