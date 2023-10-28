@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin: 2em;
+    background-color:#DDD;
+    justify-content: center;
+}
+
+.gallery{
+    align-items: center;
+    display: flex;
+    max-width: 75em;
+}
+
+.gallery ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+    flex-shrink: 1;
+    
+}
+
+.gallery li{
+    display: flex;
+    border: 0.5em solid black;
+    padding: 2em 1em;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    flex: 1 1 200px;
+}
+
+.gallery img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
