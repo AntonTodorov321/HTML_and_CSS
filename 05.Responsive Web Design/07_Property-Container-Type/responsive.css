@@ -1,0 +1,13 @@
+.card h2 {
+  font-size: 1em;
+}
+
+.card h2 {
+  font-size: 2em;
+}
+
+container-type {
+  .post{
+    inline-size: auto;
+  }
+}
